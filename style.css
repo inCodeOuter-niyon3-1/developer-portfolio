@@ -7,6 +7,19 @@ h1 {
   font-weight: 600;
   font-size: 60px;
 }
+.img2 {
+  width: 70%;
+
+  padding-right: 50px;
+}
+.main2 {
+  padding-right: 50px;
+}
+.img2 img {
+  width: 120%;
+
+  padding-top: 5px;
+}
 h2 {
   font-size: 30px;
   font-size: 40px;
@@ -35,17 +48,38 @@ section {
   padding-top: 10px;
   padding-left: 15px;
   display: flex;
+  margin-bottom: 100px;
+}
+.back {
+  background-image: url(images/top-banner.png);
+  background-repeat: space;
 }
 .half-width {
   width: 50%;
-  padding-left: 2%;
+  padding-left: 10%;
 }
 .half-width img {
   padding-top: 39px;
   padding-left: 10%;
   width: 68%;
 }
-.background {
+
+.download-button {
+  text-decoration: none;
+  margin-left: 10px;
+  color: white;
+  border-radius: 7px;
+  padding: 10px 30px;
+  font-weight: 600;
+  background-image: linear-gradient(yellowgreen, tomato);
+}
+.background2 {
+  background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
-  background-image: url(images/top-banner.png);
+  background-position: right;
+}
+.background {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
