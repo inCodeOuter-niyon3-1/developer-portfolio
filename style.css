@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 h1 {
+  margin-left: 8%;
   font-weight: 600;
   font-size: 60px;
 }
@@ -21,7 +22,7 @@ h1 {
   padding-top: 5px;
 }
 h2 {
-  font-size: 30px;
+  font-weight: 800;
   font-size: 40px;
 }
 h4 {
@@ -35,7 +36,8 @@ p {
   font-size: 20px;
 }
 span {
-  color: rgb(255, 208, 0);
+  font-size: 50px;
+  color: greenyellow;
 }
 .hire-me-button {
   margin-left: 100px;
@@ -85,4 +87,37 @@ section {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left bottom;
+}
+
+.span {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+.cla2 {
+  box-shadow: 20px 20px 50px gray;
+  width: 40%;
+  padding-left: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  border-left: 6px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.cla1 {
+  box-shadow: 20px 20px 50px gray;
+  width: 40%;
+  padding-left: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  border-left: 6px solid;
+  border-image: linear-gradient(tomato, yellow);
+  border-image-slice: 1;
+}
+#bk {
+  background-image: url(images/backgrounimage-white.png);
+  background-repeat: no-repeat;
+  background-position: top;
 }
